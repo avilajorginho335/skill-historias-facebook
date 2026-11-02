@@ -1,0 +1,49 @@
+# Hist 1 pt 2 — os 800 reais guardados (pedido do usuário de 02/11/2026: edição completa, dinâmica e impactante)
+# ATO 1 (1–5) a briga em casa: pai "fique na sua" | filho pergunta à mãe | mãe culpa o pai | filho paga os 800 | pai "suma da minha frente"
+# ATO 2 (6–8) a mágoa: a mãe voltou a falar com o pai | "anos e anos achando que meu pai só me via como dinheiro"
+# ATO 3 (9–14) no casamento, os recibos: 120 depósitos, R$ 100 mil, a entrada da casa, "por que ele nunca me disse?"
+# ATO 4 (15–20) o perdão: o pai se explica | "tem amor que não sabe falar" | "entre comigo, meu pai" | entrada na igreja
+# FECHO (21–22) o pai fala com o público e convida a seguir a página
+estilo: emocionante
+legenda: sim
+
+# trilha por momento; cada troca: a que sai some em 1,0 s e a nova entra em 0,5 s (config.json > trilha.troca_*)
+trilha: Suspense 02
+trilha abertura: não
+
+# passagem de tempo da cozinha para a igreja (só a trilha abaixa; relógio sutil)
+cartela depois da cena 8: NO DIA DO CASAMENTO... | 3.5s | efeito Relógio 01 | trilha abaixa
+
+# ATO 1 — Suspense 02 (a abertura dos exemplos); impacto automático na fala do gancho
+cena 1: transição escurecer
+cena 2: transição dissolve
+cena 3: transição escurecer
+cena 4: transição dissolve
+# "moleque": aperta no rosto do pai; fim do ato com escurecer + Woosh 02 (impacto)
+cena 5: zoom impacto no rosto 0.49 0.30 em 2.5; transição escurecer; som Woosh 02
+
+# ATO 2 — Piano 02 (melancolia; soa na hora, a cena já começa falando)
+cena 6: trilha Piano 02; transição dissolve
+cena 7: transição dissolve
+
+# ATO 3 — Drama 03 (violino solo: a virada do estilo aprovado)
+cena 9: trilha Drama 03; transição dissolve
+cena 10: transição dissolve
+cena 11: transição dissolve
+# revelação "ele tirou do bolso dele": flash com clique
+cena 12: zoom in no rosto 0.54 0.28; transição flash; som Flash Camera 01
+# batida de coração na pausa entre "Mas..." e "Por que ele nunca me disse isso?"
+cena 13: efeito Batida de Coração 02 em 0.9 volume -6; transição dissolve
+# o pai aparece na porta da igreja: luz quente + woosh suave
+cena 14: zoom in no rosto 0.52 0.30; transição luz; som Woosh 01
+
+# ATO 4 — Piano 01 (íntima, esperança) até o fim
+cena 15: trilha Piano 01; transição dissolve
+cena 16: zoom in no rosto 0.48 0.34; transição dissolve
+cena 17: transição dissolve
+cena 18: transição luz
+# cena sem fala: o transcritor inventou "Obrigado por assistir" no silêncio
+cena 20: sem fala; transição escurecer
+
+# FECHO — monetização: corta "Me diga aqui nos comentários" (isca de comentário); a pergunta fica
+cena 21: fim 5.7; transição dissolve

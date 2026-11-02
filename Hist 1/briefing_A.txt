@@ -1,0 +1,13 @@
+# HISTÓRICO: prévia de 27/10/2026, com nomes das pastas antigas; não roda mais. O atual é o briefing.txt
+# VERSÃO A — "Piano emocionante" (4 cenas + cartela + encerramento)
+# abertura: Suspense com violoncelo melancólico (fase difícil) | depois da cartela: piano com cordas (emoção, sem cara de comercial)
+# cartela: trilha some; só um grave de suspense que cresce devagar, bem baixo | cena 4: drone tenso + impacto grave no clímax
+estilo: drama
+parte 1 até a cena: 4
+trilha: Black_Hollow_Pulse-85e6323e
+trilha abertura: não
+
+cartela depois da cena 2: ANOS DEPOIS... | 3s | efeito Suspense/#1-1787430024724 | trilha some
+
+cena 3: trilha Seaside_Echoes-35ecaea4; zoom in; transição escurecer
+cena 4: trilha Black_Glass_Pulse-231be5fd; zoom impacto em 6.4 segurar; efeito Suspense/#1-1787429902546 em 6.2 volume -4

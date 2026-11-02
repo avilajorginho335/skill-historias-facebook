@@ -1,0 +1,453 @@
+{
+ "trilhas": {
+  "C:\\Users\\Jorge Neves\\Desktop\\Trilha sonoras 2 Facebook\\Drama\\01.mp3": {
+   "pasta": "Drama",
+   "nome": "01",
+   "tamanho": 1368932,
+   "duracao": 59.8,
+   "nivel_db": -15.8,
+   "dinamica_db": 14.7,
+   "onsets_por_s": 1.94,
+   "brilho_hz": 423,
+   "graves": 0.074,
+   "energia_medida": 0.83,
+   "gemini": {
+    "clima": [
+     "drama",
+     "tristeza",
+     "melancolia",
+     "esperança"
+    ],
+    "energia": 2,
+    "tensao": 3,
+    "tristeza": 4,
+    "esperanca": 3,
+    "acao": 1,
+    "calma": 3,
+    "ritmo": "lento",
+    "instrumentos": [
+     "piano",
+     "violoncelo",
+     "orquestra de cordas"
+    ],
+    "descricao": "Uma trilha emotiva e cinematográfica conduzida por um piano delicado e cordas profundas que expressam dor e reflexão.",
+    "cenas_ideais": "Cenas de reencontro emocionante, memórias do passado, luto ou momentos de redescoberta e superação pessoal.",
+    "modelo": "gemini-3.5-flash"
+   },
+   "nome_original": "My_Workspace-Ecos_de_Silêncio (2)"
+  },
+  "C:\\Users\\Jorge Neves\\Desktop\\Trilha sonoras 2 Facebook\\Drama\\02.mp3": {
+   "pasta": "Drama",
+   "nome": "02",
+   "tamanho": 1363119,
+   "duracao": 59.8,
+   "nivel_db": -15.5,
+   "dinamica_db": 15.9,
+   "onsets_por_s": 1.49,
+   "brilho_hz": 354,
+   "graves": 0.19,
+   "energia_medida": 0.68,
+   "gemini": {
+    "clima": [
+     "tristeza",
+     "melancolia",
+     "drama",
+     "nostalgia"
+    ],
+    "energia": 2,
+    "tensao": 2,
+    "tristeza": 5,
+    "esperanca": 2,
+    "acao": 1,
+    "calma": 4,
+    "ritmo": "lento",
+    "instrumentos": [
+     "piano",
+     "violoncelo",
+     "cordas"
+    ],
+    "descricao": "Uma melodia profundamente emotiva e melancólica conduzida por um violoncelo expressivo e piano suave.",
+    "cenas_ideais": "Momentos de despedida, lembranças dolorosas do passado, luto ou revelações emotivas em um drama familiar.",
+    "modelo": "gemini-3.5-flash"
+   },
+   "nome_original": "My_Workspace-Ecos_de_Silêncio (3)"
+  },
+  "C:\\Users\\Jorge Neves\\Desktop\\Trilha sonoras 2 Facebook\\Drama\\03.mp3": {
+   "pasta": "Drama",
+   "nome": "03",
+   "tamanho": 5997005,
+   "duracao": 257.9,
+   "nivel_db": -16.8,
+   "dinamica_db": 19.0,
+   "onsets_por_s": 1.05,
+   "brilho_hz": 514,
+   "graves": 0.019,
+   "energia_medida": 0.42,
+   "gemini": {
+    "clima": [
+     "tristeza",
+     "melancolia",
+     "drama",
+     "nostalgia"
+    ],
+    "energia": 2,
+    "tensao": 3,
+    "tristeza": 5,
+    "esperanca": 2,
+    "acao": 1,
+    "calma": 3,
+    "ritmo": "lento",
+    "instrumentos": [
+     "Violino",
+     "Sintetizador"
+    ],
+    "descricao": "Uma melodia expressiva e melancólica de violino solo acompanhada por tons sustentados e dramáticos de fundo.",
+    "cenas_ideais": "Momentos de luto, despedidas emotivas, lembranças dolorosas do passado ou conflitos emocionais em dramas familiares.",
+    "modelo": "gemini-3.5-flash"
+   },
+   "nome_original": "My_Workspace-Ecos_de_Silêncio"
+  },
+  "C:\\Users\\Jorge Neves\\Desktop\\Trilha sonoras 2 Facebook\\Drama\\04.mp3": {
+   "pasta": "Drama",
+   "nome": "04",
+   "tamanho": 1375012,
+   "duracao": 59.8,
+   "nivel_db": -13.4,
+   "dinamica_db": 16.7,
+   "onsets_por_s": 0.9,
+   "brilho_hz": 267,
+   "graves": 0.393,
+   "gemini": {
+    "clima": [
+     "drama",
+     "tristeza",
+     "melancolia",
+     "esperança"
+    ],
+    "energia": 3,
+    "tensao": 2,
+    "tristeza": 4,
+    "esperanca": 3,
+    "acao": 1,
+    "calma": 3,
+    "ritmo": "lento",
+    "instrumentos": [
+     "Piano",
+     "Violoncelo",
+     "Orquestra de cordas"
+    ],
+    "descricao": "Uma trilha profunda e emocionante conduzida por piano e arranjo envolvente de cordas, variando entre a tristeza introspectiva e um toque delicado de esperança.",
+    "cenas_ideais": "Momentos marcantes de drama familiar, revelações emocionais, reconciliações ou cenas de superação e despedida.",
+    "modelo": "gemini-3.5-flash"
+   },
+   "energia_medida": 0.59,
+   "nome_original": "My_Workspace-Elegy_for_the_Silent_Hour-2f8f7c24"
+  },
+  "C:\\Users\\Jorge Neves\\Desktop\\Trilha sonoras 2 Facebook\\Epic\\01.mp3": {
+   "pasta": "Epic",
+   "nome": "01",
+   "tamanho": 3852175,
+   "duracao": 167.7,
+   "nivel_db": -15.3,
+   "dinamica_db": 15.3,
+   "onsets_por_s": 1.83,
+   "brilho_hz": 317,
+   "graves": 0.623,
+   "energia_medida": 0.82,
+   "gemini": {
+    "clima": [
+     "épico",
+     "ação",
+     "suspense",
+     "tensão"
+    ],
+    "energia": 5,
+    "tensao": 5,
+    "tristeza": 2,
+    "esperanca": 3,
+    "acao": 5,
+    "calma": 1,
+    "ritmo": "rápido",
+    "instrumentos": [
+     "percussão épica",
+     "metais",
+     "cordas"
+    ],
+    "descricao": "Trilha orquestral grandiosa e intensa, marcada por percussão pesada, metais imponentes e cordas frenéticas que constroem extrema tensão e clímax.",
+    "cenas_ideais": "Cenas de perseguição de alta velocidade, confrontos decisivos e momentos de clímax em histórias de suspense ou ação.",
+    "modelo": "gemini-3.5-flash"
+   },
+   "nome_original": "My_Workspace-Shadow's_Descent (1)"
+  },
+  "C:\\Users\\Jorge Neves\\Desktop\\Trilha sonoras 2 Facebook\\Epic\\02.mp3": {
+   "pasta": "Epic",
+   "nome": "02",
+   "tamanho": 1365845,
+   "duracao": 59.8,
+   "nivel_db": -13.2,
+   "dinamica_db": 12.4,
+   "onsets_por_s": 1.89,
+   "brilho_hz": 246,
+   "graves": 0.733,
+   "energia_medida": 0.98,
+   "gemini": {
+    "clima": [
+     "suspense",
+     "tensão",
+     "ação",
+     "épico"
+    ],
+    "energia": 5,
+    "tensao": 4,
+    "tristeza": 1,
+    "esperanca": 3,
+    "acao": 5,
+    "calma": 1,
+    "ritmo": "rápido",
+    "instrumentos": [
+     "violinos",
+     "violoncelos",
+     "percussão épica",
+     "metais",
+     "sintetizadores"
+    ],
+    "descricao": "Trilha orquestral urgente e acelerada com cordas contínuas e percussão impactante, criando um clima de alta tensão e grandiosidade.",
+    "cenas_ideais": "Momentos decisivos de corrida contra o tempo, revelações dramáticas de alto impacto ou sequências de ação e superação.",
+    "modelo": "gemini-3.5-flash"
+   },
+   "nome_original": "My_Workspace-Shadow's_Descent (3)"
+  },
+  "C:\\Users\\Jorge Neves\\Desktop\\Trilha sonoras 2 Facebook\\Epic\\03.mp3": {
+   "pasta": "Epic",
+   "nome": "03",
+   "tamanho": 3816320,
+   "duracao": 167.1,
+   "nivel_db": -13.3,
+   "dinamica_db": 17.2,
+   "onsets_por_s": 1.84,
+   "brilho_hz": 250,
+   "graves": 0.561,
+   "energia_medida": 0.96,
+   "gemini": {
+    "clima": [
+     "suspense",
+     "tensão",
+     "ação",
+     "drama"
+    ],
+    "energia": 4,
+    "tensao": 5,
+    "tristeza": 2,
+    "esperanca": 1,
+    "acao": 4,
+    "calma": 1,
+    "ritmo": "médio",
+    "instrumentos": [
+     "percussão orquestral",
+     "sintetizador pulsante",
+     "metais",
+     "cordas"
+    ],
+    "descricao": "Trilha cinematográfica com pulsação crescente, percussão pesada e metais dramáticos que criam uma forte sensação de contagem regressiva e perigo iminente.",
+    "cenas_ideais": "Perfeita para momentos de investigação sob pressão, risco iminente de ser descoberto ou antes de uma revelação chocante.",
+    "modelo": "gemini-3.7-flash"
+   },
+   "nome_original": "My_Workspace-Shadow's_Descent"
+  },
+  "C:\\Users\\Jorge Neves\\Desktop\\Trilha sonoras 2 Facebook\\Epic\\04.mp3": {
+   "pasta": "Epic",
+   "nome": "04",
+   "tamanho": 4358840,
+   "duracao": 184.8,
+   "nivel_db": -14.4,
+   "dinamica_db": 17.2,
+   "onsets_por_s": 1.9,
+   "brilho_hz": 160,
+   "graves": 0.826,
+   "gemini": {
+    "clima": [
+     "tensão",
+     "ação",
+     "épico",
+     "suspense"
+    ],
+    "energia": 5,
+    "tensao": 5,
+    "tristeza": 1,
+    "esperanca": 1,
+    "acao": 5,
+    "calma": 1,
+    "ritmo": "rápido",
+    "instrumentos": [
+     "percussão épica",
+     "metais (brass)",
+     "sintetizadores",
+     "cordas dramáticas"
+    ],
+    "descricao": "Trilha sonora cinematográfica de ritmo acelerado estilo trailer, marcada por percussão pesada, efeitos de impacto e metais grandiosos.",
+    "cenas_ideais": "Sequências de clímax, perseguições intensas, grandes revelações ou confrontos decisivos em vídeos de ação e suspense.",
+    "modelo": "gemini-3.5-flash"
+   },
+   "energia_medida": 0.91,
+   "nome_original": "My_Workspace-Shadows_of_the_Storm (1)"
+  },
+  "C:\\Users\\Jorge Neves\\Desktop\\Trilha sonoras 2 Facebook\\Epic\\05.mp3": {
+   "pasta": "Epic",
+   "nome": "05",
+   "tamanho": 1392125,
+   "duracao": 59.8,
+   "nivel_db": -13.5,
+   "dinamica_db": 10.4,
+   "onsets_por_s": 1.81,
+   "brilho_hz": 241,
+   "graves": 0.741,
+   "energia_medida": 0.93,
+   "gemini": {
+    "clima": [
+     "suspense",
+     "tensão",
+     "ação",
+     "épico"
+    ],
+    "energia": 4,
+    "tensao": 5,
+    "tristeza": 2,
+    "esperanca": 1,
+    "acao": 4,
+    "calma": 1,
+    "ritmo": "rápido",
+    "instrumentos": [
+     "violinos em staccato",
+     "sintetizador",
+     "percussão pesada",
+     "metais"
+    ],
+    "descricao": "Trilha sonora intensa e pulsante com cordas dramáticas e percussão de impacto, criando forte sensação de urgência.",
+    "cenas_ideais": "Cenas de perseguição, revelação dramática de um segredo, fuga ou momentos de contagem regressiva.",
+    "modelo": "gemini-3.5-flash"
+   },
+   "nome_original": "My_Workspace-Shadows_of_the_Storm (3)"
+  },
+  "C:\\Users\\Jorge Neves\\Desktop\\Trilha sonoras 2 Facebook\\Piano\\01.mp3": {
+   "pasta": "Piano",
+   "nome": "01",
+   "tamanho": 5183107,
+   "duracao": 249.0,
+   "nivel_db": -22.4,
+   "dinamica_db": 21.7,
+   "onsets_por_s": 1.83,
+   "brilho_hz": 568,
+   "graves": 0.039,
+   "gemini": {
+    "clima": [
+     "drama",
+     "melancolia",
+     "esperança",
+     "nostalgia"
+    ],
+    "energia": 2,
+    "tensao": 1,
+    "tristeza": 3,
+    "esperanca": 4,
+    "acao": 1,
+    "calma": 4,
+    "ritmo": "lento",
+    "instrumentos": [
+     "harpa",
+     "violão",
+     "piano",
+     "cordas"
+    ],
+    "descricao": "Uma trilha acústica delicada e envolvente que transmite intimidade, emoção e uma sensação reconfortante de esperança.",
+    "cenas_ideais": "Cenas de reconciliação familiar, reflexão do protagonista sobre o passado ou momentos de superação com final emocionante.",
+    "modelo": "gemini-3.5-flash"
+   },
+   "energia_medida": 0.36,
+   "nome_original": "My_Workspace-Ivory_Drift-8c0534a7"
+  },
+  "C:\\Users\\Jorge Neves\\Desktop\\Trilha sonoras 2 Facebook\\Piano\\02.mp3": {
+   "pasta": "Piano",
+   "nome": "02",
+   "tamanho": 3725955,
+   "duracao": 173.5,
+   "nivel_db": -17.4,
+   "dinamica_db": 15.5,
+   "onsets_por_s": 1.5,
+   "brilho_hz": 231,
+   "graves": 0.21,
+   "energia_medida": 0.56,
+   "gemini": {
+    "clima": [
+     "melancolia",
+     "drama",
+     "calma",
+     "nostalgia"
+    ],
+    "energia": 2,
+    "tensao": 2,
+    "tristeza": 4,
+    "esperanca": 2,
+    "acao": 1,
+    "calma": 4,
+    "ritmo": "lento",
+    "instrumentos": [
+     "piano solo"
+    ],
+    "descricao": "Uma melodia suave e emotiva executada no piano, transmitindo um tom introspectivo, melancólico e contemplativo.",
+    "cenas_ideais": "Momentos de reflexão solitária, lembranças de tempos passados, desabafos emocionais ou conciliação em um drama familiar.",
+    "modelo": "gemini-3.5-flash"
+   },
+   "nome_original": "My_Workspace-Ivory_Drift-9422faad"
+  },
+  "C:\\Users\\Jorge Neves\\Desktop\\Trilha sonoras 2 Facebook\\Suspense\\01.mp3": {
+   "pasta": "Suspense",
+   "nome": "01",
+   "tamanho": 1419010,
+   "duracao": 59.8,
+   "nivel_db": -14.9,
+   "dinamica_db": 21.1,
+   "onsets_por_s": 1.42,
+   "brilho_hz": 145,
+   "graves": 0.68,
+   "energia_medida": 0.69,
+   "gemini": {
+    "clima": [
+     "suspense",
+     "tensão",
+     "ação",
+     "drama"
+    ],
+    "energia": 4,
+    "tensao": 5,
+    "tristeza": 2,
+    "esperanca": 1,
+    "acao": 4,
+    "calma": 1,
+    "ritmo": "rápido",
+    "instrumentos": [
+     "Cordas (ostinato)",
+     "Percussão cinematográfica",
+     "Sintetizador grave",
+     "Metais"
+    ],
+    "descricao": "Uma trilha sombria e pulsante movida por um ostinato acelerado de cordas e impactos graves, criando um clima de urgência e suspense constante.",
+    "cenas_ideais": "Perfeita para cenas de investigação decisiva, perseguição, contagem regressiva ou descobertas dramáticas de alto risco.",
+    "modelo": "gemini-3.5-flash"
+   },
+   "nome_original": "My_Workspace-Black_Hollow_Pulse-49884419"
+  },
+  "C:\\Users\\Jorge Neves\\Desktop\\Trilha sonoras 2 Facebook\\Suspense\\02.mp3": {
+   "pasta": "Suspense",
+   "nome": "02",
+   "tamanho": 1391658,
+   "duracao": 59.8,
+   "nivel_db": -13.7,
+   "dinamica_db": 15.4,
+   "onsets_por_s": 1.92,
+   "brilho_hz": 157,
+   "graves": 0.794,
+   "energia_medida": 0.96,
+   "nome_original": "My_Workspace-Shadow_Pulse-e8175bf0"
+  }
+ }
+}

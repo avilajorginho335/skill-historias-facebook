@@ -1,0 +1,12 @@
+# Estilo aprovado (versão B) com as pastas novas (27/10/2026): Trilha sonoras 2 Facebook + Efeitos sonoros 2
+# abertura: Suspense 02 (a dos exemplos) | depois da cartela: Drama 03 (violino solo)
+# cena 4: Suspense 01 (cordas em ostinato + impacto grave) | cartela: trilha abaixa + relógio suave
+# 3 -> 4 em dissolve | clímax com batida de coração | vídeo único, sem "Continua"
+estilo: drama
+trilha: Suspense 02
+trilha abertura: não
+
+cartela depois da cena 2: ANOS DEPOIS... | 3.5s | efeito Relógio 01 | trilha abaixa
+
+cena 3: trilha Drama 03; zoom in; transição dissolve
+cena 4: trilha Suspense 01; zoom impacto em 6.4 segurar; efeito Batida de Coração 02 em 6.15 volume -6

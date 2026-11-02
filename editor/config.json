@@ -1,0 +1,196 @@
+{
+  "_comentario": "Estilo fixo das edições. Medido quadro a quadro nos vídeos de exemplo 2 e 3 (pt 1 e pt 2) em 26/10/2026 (1080x1920, 30 fps). Edite com cuidado; cores em RRGGBB.",
+
+  "video": {
+    "largura": 1080,
+    "altura": 1920,
+    "fps": 30,
+    "codec": "auto",
+    "qualidade_nvenc_cq": 19,
+    "qualidade_x264_crf": 18
+  },
+
+  "legenda": {
+    "ativa": true,
+    "_ativa": "ligadas em todos os vídeos desde 31/10/2026 a pedido do usuário; 'legenda: não' no briefing desliga numa história",
+    "fonte": "Lilita One",
+    "fonte_negrito": 0,
+    "fonte_italico": 1,
+    "tamanho": 92,
+    "cor": "FFFFFF",
+    "cor_destaque": "FBF406",
+    "cor_contorno": "000000",
+    "contorno": 7,
+    "sombra": 2,
+    "espacamento": 1,
+    "centro_y": 1380,
+    "_centro_y": "com 1380 o centro da legenda fica em 1376, o medido na história 2 pt 1 (caixa alta) em 31/10/2026; a 2 pt 2 usa 1326",
+    "margem_lateral": 60,
+    "maiusculas": true,
+    "max_palavras": 3,
+    "max_caracteres": 20,
+    "segurar_apos_fala": 0.4,
+    "remover_pontuacao": ".,;:…",
+    "pasta_fontes": "fonts"
+  },
+
+  "cortes": {
+    "antes_da_fala": 0.2,
+    "depois_da_fala": 0.55,
+    "cena_sem_fala_max": 8.0,
+    "minimo_cena": 1.5,
+    "estender_se_movimento": true,
+    "limiar_movimento": 3.0,
+    "fator_movimento": 1.3,
+    "extensao_movimento": 1.2,
+    "_nota": "medido nos exemplos: a fala seguinte começa ~0,2 s depois do ponto preto/branco da transição e a anterior termina ~0,55 s antes dele"
+  },
+
+  "transicoes": {
+    "padrao": "alternar",
+    "primeira": "escurecer",
+    "escurecer": { "saida": 0.2, "preto": 0.05, "entrada": 0.2 },
+    "flash": { "saida": 0.17, "branco": 0.03, "entrada": 0.2 },
+    "dissolve": { "duracao": 0.5 },
+    "leak": { "saida": 0.15, "entrada": 0.2, "brilho": 0.6, "vermelho": 2.6, "verde": 1.0 },
+    "auto_dissolve": true,
+    "auto_leak": true,
+    "leak_intervalo_min_s": 40,
+    "abertura_fade": 0.0,
+    "fechamento_fade": 0.5,
+    "_tipos": "alternar = escurecer/flash; dissolve automático quando a fala continua no clipe seguinte (sem ponto final); leak (luz quente laranja) automático nos picos de amor/saudade, no máximo 1 a cada 40 s",
+    "_efeitos": "regra do usuário (31/10/2026): as transições NÃO têm som automático; efeito sonoro só quando ele manda (`cena N: som Flash Camera 01`). Volume e momento de cada som em efeitos.niveis"
+  },
+
+  "camera": {
+    "_nota": "medido em 27/10/2026 comparando cada clipe ORIGINAL (Downloads) com os vídeos editados 2 e 3 (ver camera.py)",
+    "zoom_base": 1.02,
+    "auto": true,
+    "impacto_no_gancho": true,
+    "impacto": { "pico": 1.30, "subida": 2.5, "segurar": 0.25, "descida": 3.0, "lento": 0.03,
+                 "_nota": "3 pt 1: aproxima devagar, aperta até 1,32 na exclamação do gancho, segura e volta em ~3 s, mirando o rosto" },
+    "zoom_lento_auto": true,
+    "fracao_zoom_lento": 0.25,
+    "zoom_in":  { "taxa_s": 0.018, "max": 1.14, "_nota": "2 pt 2: 1,00→1,14 e 1,00→1,09 em ~7,5 s, linear (falas tristes/confissão)" },
+    "zoom_out": { "taxa_s": 0.03,  "max": 1.25, "_nota": "2 pt 2: 1,22→1,00 e ~1,35→1,00, linear, saindo do rosto (alívio, pergunta)" },
+    "close": 1.08,
+    "reenquadrar": { "auto": false, "velocidade": 0.12,
+                     "_nota": "clipe horizontal: na história 2 o recorte 9:16 fica no centro ou desliza devagar e linear (keyframes, ex. 0,30→0,41 em 8 s). Testado: centralizar erra menos (0,049) que seguir a pessoa por cor/movimento (0,06–0,10), por isso o padrão é o centro e o diretor define 'enquadrar 0.3 > 0.41' olhando cenas_brutas.png; 'enquadrar seguir' liga o rastreio" }
+  },
+
+  "cor": {
+    "ativa": true,
+    "_nota": "medido em YUV nas edições 2 pt 2, 3 pt 1 e 3 pt 2 e conferido renderizando os clipes originais da história 3 contra a edição do usuário (diferença < 1%): mais contraste e sombras mais fundas, leve tom frio, cores um pouco mais vivas, vinheta leve",
+    "y_ganho": 1.06,
+    "y_offset": -10.6,
+    "u_ganho": 1.06,
+    "u_desvio": 3.0,
+    "v_ganho": 1.18,
+    "v_desvio": -2.7,
+    "vinheta": 0.14
+  },
+
+  "cartela": {
+    "_nota": "cartela de texto entre cenas (ex.: 'ANOS DEPOIS...'): a cena anterior escurece até o preto, o texto amarelo aparece letra por letra com borda em degradê (esquerda -> direita), a trilha abaixa e um relógio suave marca o tempo (estilo aprovado pelo usuário em 27/10/2026, Hist 1 versão B; \"trilha some\" no briefing deixa só o efeito) e a cartela funde na cena seguinte, que já entra andando",
+    "duracao": 3.5,
+    "escurecer_antes": 0.4,
+    "fusao": 0.5,
+    "fonte": "Georgia",
+    "tamanho": 120,
+    "cor": "EDFC00",
+    "negrito": 0,
+    "italico": 1,
+    "espacamento": 6,
+    "revelar_inicio": 0.25,
+    "revelar_dur": 1.3,
+    "suavidade": 0.45,
+    "desfoque": 6,
+    "efeito": "",
+    "efeito_pico_db": -20,
+    "_efeito": "pico do trecho que toca; -6 ficou desproporcional (usuário, 27/10/2026): o efeito da cartela fica sutil, abaixo da fala",
+    "trilha": "abaixa",
+    "trilha_fade": 0.4,
+    "trilha_abaixa_db": -18
+  },
+
+  "partes": {
+    "dividir": false,
+    "_dividir": "pedido do usuário em 27/10/2026: cada história é UM vídeo só (Parte 1); dividir em Parte 1/Parte 2 só se ele pedir ('dividir: sim' ou 'parte 1 até a cena: N' no briefing)",
+    "parte1_alvo_s": 60,
+    "parte2_minimo_s": 20
+  },
+
+  "trilha": {
+    "pasta": "C:\\Users\\Jorge Neves\\Desktop\\Trilha sonoras 2 Facebook",
+    "_pasta": "desde 27/10/2026 SÓ esta pasta (Drama, Epic, Piano, Suspense), escolhida pelo usuário; a antiga 'Trilhas sonoras' não é mais usada",
+    "estilos": {
+      "drama": "Drama", "dramatic": "Drama", "triste": "Drama",
+      "melanc": "Piano", "piano": "Piano", "reflex": "Piano",
+      "suspense": "Suspense", "terror": "Suspense", "misterio": "Suspense", "tensao": "Suspense",
+      "acao": "Epic", "epic": "Epic", "guerra": "Epic", "intens": "Epic",
+      "inspir": "Piano", "emocion": "Piano", "esperanc": "Piano", "superac": "Piano",
+      "normal": "Piano", "violao": "Piano", "leve": "Piano", "calmo": "Piano"
+    },
+    "estilo_padrao": "Drama",
+    "lufs": -21.5,
+    "fala_lufs": -15,
+    "fade_in": 1.0,
+    "fade_out": 1.5,
+    "ducking_limiar_db": -30,
+    "ducking_razao": 1.5,
+    "diferenca_minima_db": 10,
+    "continuar_na_parte2": false,
+    "crossfade": 1.8,
+    "troca_fade_out": 1.0,
+    "troca_fade_in": 0.5,
+    "_troca": "pedido do usuário (02/11/2026): na troca de trilha, a que sai termina com fade out de 1,0 s e a nova entra com fade in de 0,5 s, sem sobrepor; tire as duas chaves para voltar ao crossfade de 1,8 s dos exemplos",
+    "troca_antes_da_transicao": 0.9,
+    "preferir_longas": true,
+    "abertura": {
+      "ativa": true,
+      "_nota": "nos exemplos cada parte abre com uma trilha tensa (Epic/Suspense) no gancho e troca para a trilha da história numa transição; a nova trilha começa do início dela",
+      "parte1_troca_entre_s": [15, 32],
+      "parte2_troca_entre_s": [6, 17]
+    },
+    "_escolha": "trilha principal pelo clima das falas cruzado com catalogo_trilhas.json; --estilo ou o briefing mudam a pasta preferida; nível medido nos exemplos: trilha ~6,5 dB abaixo da fala, quase sem ducking"
+  },
+
+  "efeitos": {
+    "pasta": "C:\\Users\\Jorge Neves\\Desktop\\Efeitos sonoros 2",
+    "_pasta": "desde 27/10/2026 SÓ esta pasta (batida de Coração, Celular Vibrando, Click de Mouse, Flash Camera, Relogio, teclado digitando, woosh); a antiga 'Efeitos sonoros' não é mais usada",
+    "pico_db": -8,
+    "aplicar_sugestoes": false,
+    "niveis": {
+      "_nota": "volume (pico) e momento dos efeitos PEDIDOS, por pasta; pico_em = onde cai o pico do som em relação à troca de cena (flash, clique e digitação medidos nos exemplos)",
+      "flash camera": { "pico_db": -3, "pico_em": -0.14 },
+      "woosh": { "pico_db": -8, "pico_em": 0.0 },
+      "teclado digitando": { "pico_db": -4, "pico_em": 0.0 },
+      "padrao": { "pico_db": -8, "pico_em": 0.0 }
+    },
+    "digitacao": { "repetir": true }
+  },
+
+  "encerramento": {
+    "continua": false,
+    "_continua": "pedido do usuário em 27/10/2026: o encerramento 'Continua no Próximo episódio...' (flash -> P&B -> texto) só quando ele pedir ('continua: sim' no briefing); sem ele o vídeo termina com fade para o preto",
+    "flash_saida": 0.17,
+    "flash_entrada": 0.2,
+    "pb_duracao": 4.0,
+    "pb_movimento": true,
+    "pb_lento_max": 2.0,
+    "zoom": 0.20,
+    "rotacao_graus": -6,
+    "fade_preto": 0.4,
+    "texto": "Continua no Próximo episódio...",
+    "fonte": "Georgia",
+    "tamanho": 114,
+    "cor": "EDFC00",
+    "cursor": "|",
+    "cor_cursor": "FFFFFF",
+    "letras_por_segundo": 12,
+    "inicio_digitacao": 0.15,
+    "segurar": 3.3,
+    "fade_final": 0.6,
+    "_nota": "P&B com o clipe ainda andando (o resto do último clipe, em câmera lenta se faltar), zoom ~5%/s e giro ~1,5°/s anti-horário; digitação 10–15 letras/s; segura ~3,5 s"
+  }
+}

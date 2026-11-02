@@ -1,0 +1,86 @@
+# Briefing da história (copie este arquivo para a pasta da história com o nome "briefing.txt")
+# Linhas com # são ignoradas. Tudo é opcional: sem briefing, a edição usa o padrão.
+
+# Estilo da trilha (opcional). Sem isso, o editor escolhe pelo clima das falas de cada parte.
+# Com isso, ele prefere a pasta do estilo mas ainda escolhe a trilha mais compatível dentro dela.
+# drama | melancólico | piano | suspense | ação | épico   (pastas de "Trilha sonoras 2 Facebook": Drama, Epic, Piano, Suspense)
+# estilo: drama
+
+# Trilha específica (opcional). Pode ser parte do nome do arquivo, ex: "Ecos de Silêncio"
+# Pela pasta e o número do arquivo: "Drama 01" = pasta Drama, trilha 01 (vale para todas as pastas e em todos os campos)
+# trilha: Drama 01
+# Ou por parte (nome de arquivo ou estilo):
+# trilha parte 1: suspense
+# trilha parte 2: inspiradora
+# Ou trocando no meio, a partir de uma cena (crossfade de 1,8 s em cima da transição):
+# cena 7: trilha inspiradora
+# Trilha tensa do gancho (padrão: Epic ou Suspense escolhida sozinha; troca entre 15–32 s na Parte 1 e 6–17 s na Parte 2):
+# trilha abertura: suspense
+# trilha abertura: não
+
+# Padrão (pedido do usuário em 27/10/2026): UM vídeo só, com todas as cenas, terminando com fade para o preto.
+# Encerramento "Continua no Próximo episódio..." (flash -> P&B -> texto) só quando ele pedir:
+# continua: sim
+# Dividir em Parte 1 / Parte 2 só quando ele pedir (na cena N, ou perto de 60 s com "dividir: sim"):
+# parte 1 até a cena: 8
+# dividir: sim
+
+# Cartela de texto entre cenas (passagem de tempo): a cena escurece até o preto, o texto amarelo aparece letra por letra
+# com borda em degradê (esquerda -> direita), a trilha abaixa e o efeito toca baixinho; funde (0,5 s) na cena seguinte, que
+# entra andando e com a trilha dela começando do início. Partes separadas por "|": texto | duração | efeito Pasta/arquivo | trilha some|abaixa|continua
+# cartela depois da cena 2: ANOS DEPOIS... | 3s | efeito Relógio 01 | trilha abaixa
+# Cor e estilo do texto (Modelo de Ideia): letra amarela|branca|dourada|vermelha|laranja|azul|verde|#RRGGBB e
+# fade in | fade out | fade (in e out) | digitando (som só se pedir: "| efeito Teclado Digitando 01") | letra por letra (padrão)
+# cartela depois da cena 2: ANOS DEPOIS... | letra branca | digitando | 3s
+# sem efeito na cartela: "| sem efeito"
+
+# Texto no final do vídeo (liga o encerramento flash -> P&B -> texto): texto | cor | estilo (digitando, fade in, letra por letra)
+# texto final: Será que ela vai reconhecer? | letra amarela | fade in
+# parte 1: 65s
+
+# Legenda: ligada por padrão (Lilita One, caixa alta). Para mudar nesta história: não | minúsculas
+# legenda: não
+
+# Transição padrão entre cenas: alternar (padrão: escurecer/flash alternados, dissolve quando a fala continua
+# no clipe seguinte, luz quente nos picos de amor/saudade) | escurecer | flash | dissolve | luz | corte
+# transição: alternar
+
+# Câmera (medida nos exemplos 2 e 3). Automático: recorte base 1,02; zoom de impacto na exclamação da 1ª cena;
+# zoom in/out lento em ~25% das cenas em que a câmera do clipe está parada; clipe horizontal = recorte 9:16 no centro.
+# camera: parada        -> desliga os movimentos automáticos
+# Cor das histórias 2 e 3 (contraste, sombras fundas, vinheta leve) — ligada por padrão:
+# cor: não
+
+# Instruções por cena (separe várias com ";")
+#   efeito <nome da pasta de efeitos> [em <segundos>] [volume <dB>]
+#   transição escurecer | flash | dissolve | luz | corte
+#   sem corte          -> não aparar o silêncio do início/fim
+#   início 1.0 / fim 6.5 / cortar em 6.5 / duração 4 (para cena sem fala)
+#   zoom in [até 1.14] | zoom out [de 1.22] | zoom impacto [em 3.2] [segurar]   (segundos contados do início da cena
+#   já cortada; "segurar" = aperta e fica, para o gancho que corta para o encerramento)
+#   efeito <pasta> <número> em 6.2   -> "Woosh 02" = pasta woosh, arquivo 02 (ex.: efeito Batida de Coração 02 em 6.2)
+#   close | zoom 1.13 | zoom 1.1 cima   -> recorte fixo (ex.: tirar texto/legenda gravados pela IA na imagem)
+#   zoom in no rosto 0.52 0.30 [até 1.3] | zoom out no rosto 0.55 0.27 | zoom impacto no rosto 0.52 0.33 em 6.4 segurar
+#     -> o zoom mira o rosto do personagem (x y de trabalho\grade_cenas.png: fim da cena p/ zoom in, começo p/ zoom out)
+#   sem zoom | espelhar | enquadrar esquerda|direita|centro|seguir|0.4|0.3 > 0.41   (enquadrar: só clipes horizontais;
+#                                                       "0.3 > 0.41" = desliza devagar, como os keyframes da história 2)
+#   corrigir desde por 10   -> troca a palavra que o transcritor errou (a legenda e o checklist usam o texto corrigido)
+#   sem fala                -> cena sem fala de verdade: ignora a frase que o transcritor inventou no silêncio
+#                              (ex.: "Obrigado por assistir."); fica sem legenda e a trilha é o som da cena
+#   silenciar <palavra ou frase> | silenciar 3.2-3.6 | remover   -> correções de monetização
+#   som <efeito>  ou  transição escurecer com efeito <efeito>   -> som na transição depois da cena (sem isso, ela fica muda)
+#     vários juntos: som Flash Camera 01 + Woosh 02
+#     (Batida de Coração 01|02, Celular Vibrando 01, Click de Mouse 01, Flash Camera 01, Relógio 01, Teclado Digitando 01, Woosh 01|02, nenhum)
+# cena 1: zoom impacto
+# cena 16: zoom 1.13
+# cena 4: silenciar "comente amém"
+# cena 3: efeito celular vibrando em 2.0
+# cena 5: efeito batida de coração; transição flash
+# cena 7: sem corte
+
+# Ajuste do encerramento (só vale com "continua: sim"): "preto e branco 3s; segurar 6s; texto: Continua no próximo episódio..."
+# encerramento: preto e branco 4s; segurar 3.3s
+# Imagem congelada em P&B (em vez de seguir andando) e cartão de 8 s no total; o texto vem por último:
+# encerramento: congelar; cartão 8; texto: Continua no Próximo Episódio...
+# Sons do final, só se pedidos (o texto sempre por último):
+# encerramento: congelar; som final Flash Camera 01 + Woosh 02; som digitação Teclado Digitando 01; texto: Continua no Próximo Episódio...

@@ -1,0 +1,5 @@
+Fontes usadas pelas legendas (lidas pelo libass via "fontsdir").
+
+LilitaOne-Regular.ttf  - Lilita One, Google Fonts (licença OFL em OFL-LilitaOne.txt). Padrão do config.json.
+
+Para usar outra fonte: coloque o .ttf/.otf aqui e troque "legenda.fonte" no config.json pelo nome da família.

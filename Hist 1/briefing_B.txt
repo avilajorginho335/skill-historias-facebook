@@ -1,0 +1,15 @@
+# HISTÓRICO: prévia de 27/10/2026, com nomes das pastas antigas; não roda mais. O atual é o briefing.txt
+# VERSÃO B — "Violino da saudade" (4 cenas + cartela + encerramento)
+# abertura: Suspense Shadow Pulse (a mesma abertura das histórias 2 e 3) | depois da cartela: Ecos de Silêncio, violino e piano
+# (a trilha de drama dos exemplos: saudade de voltar ao lugar) | cena 4: cordas pulsando em crescendo
+# cartela mais longa (3,5 s): a trilha só abaixa e um relógio suave marca a passagem do tempo
+# 3 -> 4 em dissolve (ela vê quem chegou, na mesma cena) | clímax com batida de coração
+estilo: drama
+parte 1 até a cena: 4
+trilha: Shadow_Pulse-e8175bf0
+trilha abertura: não
+
+cartela depois da cena 2: ANOS DEPOIS... | 3.5s | efeito Relogio/#2 | trilha abaixa
+
+cena 3: trilha Ecos_de_Silêncio (1); zoom in; transição dissolve
+cena 4: trilha Black_Pulse-560e51cf; zoom impacto em 6.4 segurar; efeito batida de coração/#4 em 6.15 volume -6

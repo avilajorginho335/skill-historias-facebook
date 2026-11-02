@@ -1,0 +1,25 @@
+# Hist 1 pt 1 — o primeiro salário (pedido do usuário de 31/10/2026, recriado)
+# 1 filho feliz: "caiu meu primeiro salário" | 2 pai: "todo dia 10 você deve me entregar 800 reais"
+# 3 filho revoltado: "isso é um absurdo!" | 4 pai guarda o dinheiro: "não te devo explicação"
+# 5 mãe: "posso saber por que você pega o dinheiro do seu filho?" -> congela nela -> Continua
+estilo: emocionante
+continua: sim
+# pedido: legenda em Lilita One (caixa alta, palavra atual em amarelo, como na história 2 pt 1)
+legenda: sim
+# sons só os pedidos: Flash Camera 01 + Woosh 02 juntos na passagem para o P&B; teclado na digitação
+encerramento: congelar; cartão 8; som final Flash Camera 01 + Woosh 02; som digitação Teclado Digitando 01; texto: Continua no Próximo Episódio...
+
+# pedido: Epic 05 nas cenas 1 a 5
+trilha: Epic 05
+trilha abertura: não
+
+# transições sem som, a não ser a 4 -> 5 (Flash Camera 01, pedido)
+# a fala do filho termina em 7,4 s e a do pai já começa no início do clipe: corte em 7,9 para a fusão cair depois da palavra
+cena 1: fim 7.9; transição dissolve
+# a fala do filho na cena 3 só começa em 0,8 s: sem tempo morto depois do "800 reais"
+# o pai diz "dez" (um transcritor ouviu "desde", outro "deis"); na legenda sai 10, como o "Dia 10" da cena 4
+cena 2: fim 7.95; transição escurecer; corrigir desde por 10
+cena 3: início 0.55; zoom impacto no rosto 0.48 0.30 em 6.1; transição dissolve
+cena 4: transição flash; som Flash Camera 01
+# os clipes 2 e 4 já se aproximam sozinhos; na mãe, zoom lento até o rosto, que é onde a imagem congela
+cena 5: zoom in no rosto 0.47 0.26
